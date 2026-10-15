@@ -104,9 +104,9 @@ private void deleteMahasiswa() {
 }
 
 private void menuMahasiswa() {
-    boolean kembali = false;
-
-    while (!kembali) {
+    boolean balek = false;
+    
+    while (!balek) {
         System.out.println("\n===== MENU MAHASISWA =====");
         System.out.println("1. View all");
         System.out.println("2. Create");
@@ -135,7 +135,7 @@ private void menuMahasiswa() {
                 ambilMatkul();
                 break;
             case 0:
-                kembali = true;
+                balek = true;
                 break;
             default:
                 System.out.println("Pilihan tidak valid.");
