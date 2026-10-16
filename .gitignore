@@ -17,4 +17,3 @@
 # OS / editor noise
 .DS_Store
 *.log
-app/src/main/java/hy/material8database/config/AppConfig.java
