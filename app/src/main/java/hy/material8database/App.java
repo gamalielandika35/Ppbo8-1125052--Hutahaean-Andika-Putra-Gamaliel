@@ -107,7 +107,7 @@ private void menuMahasiswa() {
     boolean balek = false;
     
     while (!balek) {
-        System.out.println("\n===== MENU MAHASISWA =====");
+        System.out.println("\nMENU MAHASISWA =====");
         System.out.println("1. View all");
         System.out.println("2. Create");
         System.out.println("3. Edit");
